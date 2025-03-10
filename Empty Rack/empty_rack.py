@@ -50,10 +50,13 @@ def upload_image():
 root = tk.Tk()
 root.title("Empty Spaces Detection in Shelf Data")
 
+# Create a button to upload an image
 upload_button = tk.Button(root, text="Upload Image", command=upload_image)
 upload_button.pack(pady=20)
 
+# Create a label to display the image
 image_label = tk.Label(root)
 image_label.pack()
 
+# Start the main loop
 root.mainloop()
